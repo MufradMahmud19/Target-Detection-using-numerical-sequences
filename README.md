@@ -59,3 +59,4 @@ You can define your own mathematical series for the searcher to follow.
 - `main.py`: The entry point containing window management, rendering pipelines, state management, and the core simulation loop.
 - `score_tracker.py`: Handles reading and writing high scores to `scores.xlsx` using `openpyxl`.
 - `fibonacci_series.py`, `padovan_series.py`, `pell_series.py`: Modular files defining the mathematical movement logic for the searcher.
+- Future extensions: The modular architecture allows additional numerical sequence modules to be implemented easily. More numerical sequences will be added in future versions without requiring changes to the core simulation engine.
