@@ -5,8 +5,6 @@ Structure:
   - One sheet per unique target coordinate (e.g., "Target_200_300")
   - Each sheet has rows for each series type used at that target
   - Tracks: Best Time, Latest Time, Attempt Count, Last Updated
-
-Requires: openpyxl  (pip install openpyxl)
 """
 
 import os
