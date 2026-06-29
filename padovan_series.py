@@ -1,13 +1,11 @@
 """
 Padovan Series Movement Module
-================================
 X-axis: Padovan sequence (1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 12, 16, ...)
 Y-axis: Linear sequence (1, 2, 3, 4, 5, ...)
 
 The Rule:
   Each term is the sum of the two terms that are TWO and THREE
   steps back:  P(n) = P(n-2) + P(n-3)
-
   Starting values: P(0)=1, P(1)=1, P(2)=1
 
 The Connection:
